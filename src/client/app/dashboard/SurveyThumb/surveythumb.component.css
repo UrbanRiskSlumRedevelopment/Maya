@@ -1,0 +1,73 @@
+:host {
+  display: block;
+  padding: 0 16px;
+}
+
+#SurveyThubWrapper{
+ border: solid 1px green;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.005em;
+  margin-bottom: 0;
+  margin-top: 0.83em;
+}
+
+.map {
+  position:relative;
+  background-color: red;
+}
+
+ul {
+	columns: 3;
+  list-style-type: none;
+}
+
+li:first-child {
+    vertical-align: top;
+}
+.surveyitems {
+  /*border: 1px solid red;*/
+  width: 200px;
+  margin: 20px;
+  padding: 5px;
+  height: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  display: inline-block;
+  z-index: 3;
+}
+.surveyitems:hover {
+  cursor: pointer;
+}
+.surveyitems:active {
+  transform: translateY(1px) translateX(1px);
+}
+
+#SurveyNumberWrapper {
+    float: left;
+    width: 20%;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    margin-right: 10px;
+    overflow: auto;
+    height: 100%;
+    font-size: 32px;
+    font-weight: 100;
+    background-color: #106cc8;
+    color: #ffffff;
+}
+
+#SurveyNameWrapper {
+    float: right;
+    width: 70%;
+    text-align: left;
+    display: table-cell;
+    vertical-align: middle;
+    min-height: 50px;
+    height: 100%;
+    overflow: auto;
+    color: #106cc8;
+}

@@ -1,0 +1,65 @@
+{
+  "static": {
+    "urls": {
+      "/index.html": "eed42878d564d76ec7467f8586b6515fbc1c4a9c",
+      "/system-config.js": "d05f81d1756d6c1ce1f0a140b963c12d09fefc31",
+      "/tsconfig.json": "01d78708810a90666fbaf14a191bd71c2780f381",
+      "/worker-basic.js": "49442bd19471fe1e3c45014aab46411938ef02fa",
+      "/app/app-routing.module.js": "7388de2acd58228c94000fdbd7be240f2219dce8",
+      "/app/app.component.css": "749b005b0e5e861b4856661068f693612a880815",
+      "/app/app.component.html": "fb89b33c236ca0d684ae4706c6babaaa84bc9f1f",
+      "/app/app.component.js": "d19dc6f8d9ea9ebc95a8bcd16694e42b8f461d4a",
+      "/app/app.module.js": "6d477146cdfe16d408207d36443a64a42eed656c",
+      "/app/i18n.providers.js": "5988192156d3b29bec72cc68638caae07084674a",
+      "/app/main.js": "164886f36ac96a5ef52023261424fa393694b6d2",
+      "/app/operators.js": "a55e1c259fa45ae5ff8d1ef512fb19793dccd947",
+      "/assets/data.json": "4442de734b100da8d244b35d34a355dee4dd9618",
+      "/css/main.css": "96d6d8d018460547daafba0fb674c403eedbb600",
+      "/app/about/about-routing.module.js": "8aff6b39e93e0b5de558e9a0eb31d2d6aa6e0888",
+      "/app/about/about.component.css": "4b6073c6491b02c0afbecfcadbc76935840502cb",
+      "/app/about/about.component.html": "4604990bad0d2b7368949bba3a215c9f50945cc4",
+      "/app/about/about.component.js": "f5182fca1fcb733f509a683f17d41de97c183021",
+      "/app/about/about.module.js": "184cf930641a1053d5193f74192873a314c149c8",
+      "/app/dashboard/dashboard-routing.module.js": "e34c44c5d0cac2ea3fa05cd9881b6d0fcf8e53cb",
+      "/app/dashboard/dashboard.component.css": "637bba47c669184a15e046165fc5a7f3740a4f82",
+      "/app/dashboard/dashboard.component.html": "20d135172e41b54b7c98dbc7eb1e9677d19dc622",
+      "/app/dashboard/dashboard.component.js": "5f67b2a78466d52a877252ec6173fcf614aec8d6",
+      "/app/dashboard/dashboard.module.js": "0fac6a5838ec27897ce63793be06ba37f197ccd1",
+      "/app/home/home-routing.module.js": "068f87d274ae0884f936c3fd24b51432bfcb49ab",
+      "/app/home/home.component.css": "e1793b83555414ab700dba600fc45ae72ce63c42",
+      "/app/home/home.component.html": "9829e4fa0985dc9a09dbd26b12429d249c9668b9",
+      "/app/home/home.component.js": "26bfea086e9f67f883b72c3ec55da8a818f82d82",
+      "/app/home/home.module.js": "6539cf843da1b6a2ecac4104edcedf322e237141",
+      "/app/shared/shared.module.js": "f3ab91d01f739a5de9f4b3d2360eb032d5793954",
+      "/assets/favicon/favicon-DEV.ico": "aa4fb0706ed367fb5c2fd6bd2b058c0dce8cc785",
+      "/assets/favicon/favicon-PROD.ico": "5d40a29d26398292f08a46b26f6788ec60f5f43e",
+      "/assets/svg/more.svg": "9838cd822e0f989a0befbd365365ee2751bbdebc",
+      "/app/dashboard/SurveyData/surveydata.component.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "/app/dashboard/SurveyData/surveydata.component.html": "974e8dabf7a729eb2c55b3cb1b64ca7913c86758",
+      "/app/dashboard/SurveyData/surveydata.component.js": "8335dc1f632aeffc61d3220722629f8e47b77206",
+      "/app/dashboard/SurveyThumb/surveythumb.component.css": "116cf4c6449b3936d31f400c379c0c1d2f93fd78",
+      "/app/dashboard/SurveyThumb/surveythumb.component.html": "13f5c4232dcb9ab211e72533f87b12c7a3f1b974",
+      "/app/dashboard/SurveyThumb/surveythumb.component.js": "8f2e47c0bcf685ec010abc41c92430cee77d7e1f",
+      "/app/shared/config/env.config.js": "e56be2d1f9ff253c73baca4013d9a1c429f1969a",
+      "/app/shared/name-list/name-list.service.js": "dc138a63f688ea4bc63f1ffaef8f8530cbead77a",
+      "/app/shared/navbar/navbar.component.css": "ca29d0de0b312a878cc550aff78ec0db31750dda",
+      "/app/shared/navbar/navbar.component.html": "7682814d017c09426dece376a3b395c0d545280d",
+      "/app/shared/navbar/navbar.component.js": "64b3e31b3648140232b47a129408d7b6623c8555",
+      "/app/shared/toolbar/toolbar.component.css": "b577d1d724c5513b54ba8aa8f21aadbafab3e8ed",
+      "/app/shared/toolbar/toolbar.component.html": "c40f3376a4d29ad5ad92e9ed0e618e81bd788196",
+      "/app/shared/toolbar/toolbar.component.js": "d6f2866b6768c78bf5311280becb815a7233b39c"
+    }
+  },
+  "routing": {
+    "index": "/index.html",
+    "routes": {
+      "/": {
+        "prefix": false
+      }
+    }
+  },
+  "push": {
+    "showNotifications": true,
+    "backgroundOnly": false
+  }
+}
