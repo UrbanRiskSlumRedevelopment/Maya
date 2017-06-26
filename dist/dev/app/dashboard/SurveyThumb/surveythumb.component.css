@@ -30,7 +30,7 @@ ul {
 li:first-child {
     vertical-align: top;
 }
-.surveyitems {
+#surveyDiv {
   /*border: 1px solid red;*/
   width: 200px;
   margin: 20px;
@@ -40,10 +40,10 @@ li:first-child {
   display: inline-block;
   z-index: 3;
 }
-.surveyitems:hover {
+#surveyDiv:hover {
   cursor: pointer;
 }
-.surveyitems:active {
+#surveyDiv:active {
   -webkit-transform: translateY(1px) translateX(1px);
           transform: translateY(1px) translateX(1px);
 }

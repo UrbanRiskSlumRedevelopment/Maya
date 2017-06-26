@@ -3,7 +3,7 @@
   padding: 0 16px;
 }
 
-#SurveyThubWrapper{
+#CityThubWrapper{
  border: solid 1px green;
 }
 
@@ -15,10 +15,6 @@ h2 {
   margin-top: 0.83em;
 }
 
-.map {
-  position:relative;
-  background-color: red;
-}
 
 ul {
 	columns: 3;
@@ -28,7 +24,7 @@ ul {
 li:first-child {
     vertical-align: top;
 }
-#surveyDiv {
+.cities {
   /*border: 1px solid red;*/
   width: 200px;
   margin: 20px;
@@ -38,14 +34,14 @@ li:first-child {
   display: inline-block;
   z-index: 3;
 }
-#surveyDiv:hover {
+.cities:hover {
   cursor: pointer;
 }
-#surveyDiv:active {
+.cities:active {
   transform: translateY(1px) translateX(1px);
 }
 
-#SurveyNumberWrapper {
+#CityWrapper {
     float: left;
     width: 20%;
     text-align: center;
@@ -60,7 +56,7 @@ li:first-child {
     color: #ffffff;
 }
 
-#SurveyNameWrapper {
+#CityNameWrapper {
     float: right;
     width: 70%;
     text-align: left;

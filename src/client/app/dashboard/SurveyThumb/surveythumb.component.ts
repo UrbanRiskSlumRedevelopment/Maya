@@ -13,9 +13,10 @@ import { Component } from '@angular/core';
 
 export class SurveyThumbComponent {
 
+  housingsurvey: any;
   constructor() {
-    this.surveyitems = [
-      {id: 1, name: 'Sector 2', url:'#'},
+   this.housingsurvey = [
+      {id: 1, name: 'Sector 2'},
       {id: 2, name: 'Belapur'},
       {id: 3, name: 'Sector 22'},
       {id: 4, name: 'Hamirpur'},
@@ -24,8 +25,7 @@ export class SurveyThumbComponent {
       {id: 7, name: 'Annasalai'},
       {id: 8, name: 'Chiragnagar'},
       {id: 9, name: 'Dharavi'},
-      {id: 10, name: 'Sector 34'},
-
+      {id: 10, name: 'Sector 34'}
     ];
   }
 }
