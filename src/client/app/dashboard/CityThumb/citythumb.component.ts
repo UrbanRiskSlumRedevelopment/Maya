@@ -1,4 +1,6 @@
 import { Component} from '@angular/core';
+import { SurveyThumbComponent} from './SurveyThumb/surveythumb.component';
+import { SurveyDataComponent} from './SurveyData/surveydata.component';
 
 /* Lazy loaded*/
 
@@ -22,4 +24,10 @@ export class CityThumbComponent {
         {id: 6, name: 'Firozabad'}
       ];
     }
+
+   opensurvey() {
+     console.log ("success");
+
+   }
+
   }
