@@ -1,6 +1,4 @@
-import { Component} from '@angular/core';
-import { SurveyThumbComponent} from './SurveyThumb/surveythumb.component';
-import { SurveyDataComponent} from './SurveyData/surveydata.component';
+import { Input, Output, Component, EventEmitter} from '@angular/core';
 
 /* Lazy loaded*/
 
@@ -8,11 +6,14 @@ import { SurveyDataComponent} from './SurveyData/surveydata.component';
   moduleId: module.id,
   selector: 'citythumb',
   templateUrl: 'citythumb.component.html',
-  styleUrls: ['citythumb.component.css']
+  styleUrls: ['citythumb.component.css'],
+
 })
 
 export class CityThumbComponent {
     citynames: any[];
+    @Input() thumb: any;
+    @Output() getCity: EventEmitter<any> = new EventEmitter();
 
     constructor() {
       this.citynames = [
@@ -25,9 +26,9 @@ export class CityThumbComponent {
       ];
     }
 
-   opensurvey() {
-     console.log ("success");
+    cityClicked(cityname) {
+      this.getCity.emit(cityname);
+    }
 
-   }
 
   }

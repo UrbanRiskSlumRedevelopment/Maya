@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Input, Output, Component, EventEmitter } from '@angular/core';
 
 
 /*lazy loaded*/
@@ -13,7 +13,11 @@ import { Component } from '@angular/core';
 
 export class SurveyThumbComponent {
 
+
   housingsurvey: any;
+  @Output() getSurvey: EventEmitter<any> = new EventEmitter();
+
+
   constructor() {
    this.housingsurvey = [
       {id: 1, name: 'Sector 2'},
@@ -28,4 +32,11 @@ export class SurveyThumbComponent {
       {id: 10, name: 'Sector 34'}
     ];
   }
+
+
+  surveyClicked(item) {
+    this.getSurvey.emit(item);
+  }
+
+
 }

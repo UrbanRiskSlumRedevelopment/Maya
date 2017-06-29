@@ -1,3 +1,4 @@
 <p>Dashboard module</p>
-  <citythumb></citythumb>
-  
+<citythumb id="CityThumbPane" *ngIf="thumb=='cities'" (getCity)="OpenSurveyThumbs($event)"></citythumb>
+<survey-thumb id="SurveyThumbPane" *ngIf="thumb=='surveys'"  (getSurvey)="OpenSurvey($event)"></survey-thumb>
+<div id="SurveyDataPane" *ngIf="thumb=='surveydata'"> some survey data here </div>

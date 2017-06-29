@@ -1,7 +1,7 @@
 <div id="CityThumbWrapper"><p>City module Wrapper</p>
 <ul>
-  <li *ngFor="let cityname of citynames" (click)="opensurvey()">
-    <div class="cities" >
+  <li *ngFor="let cityname of citynames" (click)="cityClicked(cityname)">
+    <div class="cities">
       <div id="CityWrapper">{{cityname.id}} </div>
       <div id="CityNameWrapper"> <b>{{cityname.name}}</b> </div>
     </div>

@@ -11,4 +11,6 @@ import { CityThumbComponent} from './CityThumb/citythumb.component';
   declarations: [DashboardComponent, SurveyThumbComponent, CityThumbComponent],
   exports: [DashboardComponent]
 })
-export class DashboardModule { }
+export class DashboardModule {
+  
+ }

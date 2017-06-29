@@ -1,7 +1,7 @@
 <div id="SurveyThubWrapper"><p>survey module Wrapper</p>
 <ul>
   <li *ngFor="let item of housingsurvey">
-    <div id="surveyDiv">
+    <div id="surveyDiv" (click)="surveyClicked(item)">
       <div id="SurveyNumberWrapper">{{item.id}} </div>
       <div id="SurveyNameWrapper"> <b>{{item.name}}</b> </div>
     </div>
